@@ -1,0 +1,65 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+/*perfect background full image*/
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+	font-size: 3rem;
+	color: #e2bddb
+
+}
+
+.buffer{
+	height: 18rem;
+}
+/*modify the horizontal line added on line i think 21*/
+
+hr{
+	border-color: rgba(0,0,255,0.5);
+	border-width: 3px;
+	/*maximum width*/
+	max-width: 65px;
+}
+
+/*our button has this added xtics from different from bootstrap*/
+.btn-xl{
+	padding: 1rem 2rem;
+
+
+}
+
+/*this is to modify the existing buttons*/
+.btn{
+	font-weight: 700;
+	/*to make edges more circular*/
+	border-radius: 300px;
+	text-transform: uppercase;
+	margin-bottom: 10rem;
+	
+
+
+}
+
+.btn-primary{
+	background-color: #F05f44;
+	border-color: #F05f44;
+
+
+} 
+
+.btn-primary:hover{
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	/*increase width when we hover*/
+	border-width: 4px;
+
+}
